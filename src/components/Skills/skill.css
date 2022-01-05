@@ -1,0 +1,106 @@
+ .skillContainer {
+     padding-top: 100px;
+     padding-left: 80px;
+     text-align: center;
+     padding-bottom: 40px;
+ }
+
+ .ara {
+     font-size: 40px;
+     font-weight: 700;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: whitesmoke;
+ }
+
+ .skillsContent {
+     width: 100%;
+     height: 40rem;
+     border-radius: 5px;
+     transition: .120s all ease;
+ }
+
+ .skillsContent h5 {
+     font-size: 20px;
+     color: grey;
+ }
+
+ .sk {
+     width: 22rem;
+     margin-top: 40px;
+     background-color: #191919;
+     float: left;
+     padding: 20px;
+     border-radius: 5px;
+     margin-left: 20px;
+     transition: .4s ease;
+ }
+ .sk img{
+     width: 100px;
+     height: 100px;
+ }
+ .skillSpan{
+     font-size: 30px;
+     font-weight: 900;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: green;
+ }
+
+ .skillsContent :hover {
+     transform: translateY(20px);
+     background-image: linear-gradient(90deg, #f61b10, #ef0963);
+ }
+ .skillsContent:hover .imgDesc{
+     color: whitesmoke ;
+ }
+ .sk p{
+     font-size: 20px;
+     font-weight: 500;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: gray;
+ }
+ .skillContainer:hover .imgDesc{
+    color: whitesmoke ;
+}
+.lineHtml{
+    height: 5px;
+    width: 100%;
+    background: lightblue;
+}
+.another{
+    width: 90%;
+    height: 5px;
+    background: green;
+}
+.node{
+    width: 60%;
+    height: 5px;
+    background: green;
+}
+.react{
+    width: 90%;
+    height: 5px;
+    background: green;
+}
+.mongo{
+    width: 80%;
+    height: 5px;
+    background: green;
+}
+.api{
+    width: 70%;
+    height: 5px;
+    background: green;
+}
+.express{
+    width: 50%;
+    height: 5px;
+    background: green;
+}
+@media only screen and (max-width: 1024px){
+    .ara{
+        padding-left: 8rem;
+    }
+    .sk{
+       
+    }
+    }

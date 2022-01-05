@@ -1,0 +1,117 @@
+.project {
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+    /* /* position: relative; */
+}
+
+.projectContainer {
+    text-align: center;
+    background-color: #191919;
+}
+
+.para {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}
+
+.para:hover {
+    color: crimson;
+}
+
+.projectMid {
+    width: 40%;
+    height: 20rem;
+    border-radius: 200px;
+    background-color: #191919;
+    float: left;
+    margin-bottom: 3rem;
+}
+
+.projectDesc {
+    padding-top: 0%;
+    margin-left: 30px;
+    background-color: #191919;
+    width: 57%;
+    float: left;
+    margin-bottom: 3rem;
+    transition: .60s all ease;
+}
+
+.projectDesc h3 {
+    color: whitesmoke;
+    background-color: #191919;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.projectTitle {
+    padding-top: 25px;
+    font-size: 40px;
+    transition: .60s all ease;
+}
+
+.tech {
+    font-size: 22px;
+    margin-top: 50px;
+    transition: .60s all ease;
+}
+
+.projectImg{
+    width: 100%;
+    height: 100%;
+    border: 8px solid rgba(103, 233, 103, 0.883);
+    border-radius: 8px;
+    transition: .60s all ease;
+}
+.projectImg:hover{
+    width: 80%;
+    height: 80%;
+}
+.descPara{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.anchor{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:crimson;
+    text-decoration: none;
+    border: 5px solid wheat;
+    background-color: wheat;
+    transition: .60s all ease;
+}
+.projectRight:hover .anchor{
+    font-size: 30px;
+    font-weight: 900;
+    border: 5px solid rgb(236, 10, 48);
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+    transform: translateY(25px);
+    color: whitesmoke;
+}
+.projectDesc:hover{
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+    transform: translateY(25px);
+}
+.projectDesc:hover .projectTitle{
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+    transform: translateY(25px);
+}
+.projectDesc:hover .tech{
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+    transform: translateY(25px);
+}
+@media only screen and (max-width : 1000px) {
+    .projectMid{
+        width: 80%;
+        padding-left: 20px;
+    }
+    .projectRight{
+        margin-right: 40px;
+    }
+}
