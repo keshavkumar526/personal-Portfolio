@@ -5,7 +5,7 @@
     padding-top: 0%;
     background-repeat: no-repeat;
     background-color: #010101;
-    width: 100%;
+    width: 60%;
 }
 
 .header {
@@ -46,22 +46,16 @@
     text-decoration: none;
 }
 
-.toggleImg {
-    margin-top: 10px;
-    width: 30px;
-    height: 30px;
-}
 
 .bi{
     width: 35px;
     height: 35px;
     color: white;
+    /* margin-left: 40rem; */
 }
 
 .toggle {
     display: flex;
-    justify-content: flex-end;
-    float: right;
     z-index: 1000;
     width: 100%;
 }
@@ -79,7 +73,7 @@
 }
 
 .sidebarNavigation {
-    background-color: #191919;
+    width: 100%;
     background-repeat: no-repeat;
 }
 
@@ -138,18 +132,20 @@
         display: none;
     }
 
-    header.active{
-        width: 50%;
-
-    }
 
     h2.white.pz__10 {
         font-size: 50px !important;
+    }
+    .toggle{
+        display: flex;
+        justify-content: flex-end;
     }
 
     .bi {
         width: 30px;
         height: 30px;
+        /* margin-left: 15rem;
+        margin-top: 1rem; */
     }
 }
 

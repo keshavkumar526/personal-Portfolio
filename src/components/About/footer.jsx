@@ -21,7 +21,7 @@ export default function Footer() {
                  <img className='footerCIcon' src={codeShef} alt="" />
              </a>
             </div>
-            <p className='footerP'>Copyright © 2021 programmer Shahriar Sajeeb. All Rights Reserved.</p>
+            <p className='footerP'>Copyright © 2021 programmer Keshav Kumar Jha. All Rights Reserved.</p>
         </div>
     )
 }

@@ -1,36 +1,40 @@
-.contactDesc{
+.contactDesc {
     margin-top: 20px;
     margin-left: 5rem;
     width: 40%;
     float: left;
     background-color: #191919;
-    /* background-color: red; */
 }
 
-.hThree{
+.hThree {
     font-size: 4rem;
     font-weight: 900;
     height: 45px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
-.contactPara{
+
+.contactPara {
     font-size: 20px;
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
 }
-.contactPara b{
+
+.contactPara b {
     color: #f61b10;
 }
-.contactInputContainer{
+
+.contactInputContainer {
     display: flex;
 }
+
 .contactInputContainer form {
     display: flex;
     flex-direction: column;
 }
-.contactInput{
+
+.contactInput {
     width: 450px;
     height: 35px;
     background-color: #191919;
@@ -40,7 +44,8 @@
     border: 2px solid grey;
     margin-bottom: 15px;
 }
-.contactBigInput{
+
+.contactBigInput {
     width: 450px;
     height: 120px;
     background-color: #191919;
@@ -50,7 +55,8 @@
     border: 2px solid grey;
     margin-bottom: 15px;
 }
-.contactButton{
+
+.contactButton {
     width: 180px;
     height: 35px;
     margin-left: 150px;
@@ -59,50 +65,59 @@
     font-weight: 700;
     border-radius: 5px;
     color: whitesmoke;
-    background-color:#f61b10;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f61b10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.contactRightContainer{
+
+.contactRightContainer {
     float: left;
     margin-top: 20px;
     margin-left: 5rem;
     width: 40%;
 }
-.rightImg{
+
+.rightImg {
     width: 100%;
     height: 100%;
 }
-.contactFooter{
+
+.contactFooter {
     padding-top: 5rem;
     width: 100%;
     background-color: #191919;
     display: flex;
 }
-.contactFooter h1{
+
+.contactFooter h1 {
     color: whitesmoke;
     /* margin-left: 5rem; */
 }
-.footerIcon{
+
+.footerIcon {
     margin-left: 32rem;
     width: 40px;
     height: 40px;
 }
-.footerLIcon{
+
+.footerLIcon {
     width: 40px;
     height: 40px;
     margin-left: 25px;
 }
-.footerIIcon{
+
+.footerIIcon {
     width: 40px;
     height: 40px;
     margin-left: 25px;
 }
-.footerCIcon{
+
+.footerCIcon {
     width: 40px;
     height: 40px;
     margin-left: 25px;
 }
-.footerP{
+
+.footerP {
     margin-top: 30px;
     margin-left: 25rem;
     color: whitesmoke;
@@ -111,23 +126,51 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: .30s all ease;
 }
-.footerC{
+
+.footerC {
     background-color: #191919;
 }
 
-.footerP:hover{
-    font-size: 25px;
-    margin-left: 20rem;
-    color: crimson;
-}
 
 @media only screen and (max-width : 1000px) {
     .contactFooter {
-        padding-left: none;
-        padding-right: 50rem;
+        padding-left: 4rem;
         width: 50%;
     }
-    .footerIcon{
+
+    .footerIcon {
         margin-left: 4rem;
     }
+
+    .footerP {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width : 389px) {
+    .contactFooter {
+        padding-left: 0px;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width : 530px) {
+    .contactInput {
+        width: 20rem;
+    }
+    .contactBigInput{
+        width: 20rem;
+    }
+    .contactButton{
+        margin-left: 4rem;
+    }
+    .contactRightContainer{
+        width: 100%;
+    }
+    .rightImg{
+        width: 75%;
+        height: 75%;
+    }
+
 }
