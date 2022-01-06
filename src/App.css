@@ -13,3 +13,10 @@ body {
     flex-wrap: wrap;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .App{
+    overflow-x: hidden;
+  }
+}
+
