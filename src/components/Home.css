@@ -13,14 +13,15 @@
     width: 100%;
     flex-direction: row;
     transition: .4s all ease;
+    background-color: #191919;
+    padding-right: 100%;
 }
 
 .header.active {
     position: fixed;
     z-index: 1000;
     padding: 0px 30px;
-    width: 50%;
-    background-color: #191919;
+    width: 57%;
 }
 
 .logo {
@@ -48,16 +49,18 @@
 
 
 .bi{
-    width: 35px;
+    width: 100%;
     height: 35px;
     color: white;
+    margin-left: 380%;
     /* margin-left: 40rem; */
 }
 
 .toggle {
-    display: flex;
+    /* display: flex; */
     z-index: 1000;
     width: 100%;
+    /* background-color: red; */
 }
 
 .SidebarUnOrder {
@@ -125,6 +128,7 @@
 
 @media only screen and (max-width: 768px) {
     .header {
+        width: 50%;
         justify-content: space-between;
     }
 
@@ -137,13 +141,18 @@
         font-size: 50px !important;
     }
     .toggle{
-        display: flex;
-        justify-content: flex-end;
+        width: 100%;
+        padding-left: 8rem;
     }
-
+    .header.active{
+        position: absolute;
+        width: 70%;
+    }
     .bi {
-        width: 30px;
-        height: 30px;
+        width: 100%;
+        height: 35px;
+        padding-left: 6rem;
+        margin-left: 0px;
         /* margin-left: 15rem;
         margin-top: 1rem; */
     }
