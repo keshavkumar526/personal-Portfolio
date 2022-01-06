@@ -99,6 +99,15 @@
 }
 @media only screen and (max-width: 1024px){
     .ara{
-        padding-left: 8rem;
+        font-size: 33px;
+        padding-left: 0px;
+    }
+    .skillContainer{
+        padding-left: 0px;
+        text-align: start;
+    }
+    .sk{
+        margin-left: 0px;
+        width: 20rem;
     }
     }

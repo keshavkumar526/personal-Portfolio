@@ -12,7 +12,7 @@ export default function Skill() {
     <div className="skill" id="skill">
       <div className="skillContainer">
         <div className="mid">
-          <p className="ara">Skills (Technology I Can Work With)</p>
+          <p className="ara">Skills (I Can Work With)</p>
           <div className="skillsContent">
             <div className="sk">
               <img src={javascript} alt="" />
