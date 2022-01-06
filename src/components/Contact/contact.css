@@ -3,7 +3,6 @@
     margin-left: 5rem;
     width: 40%;
     float: left;
-    background-color: #191919;
 }
 
 .hThree {
@@ -84,7 +83,6 @@
 .contactFooter {
     padding-top: 5rem;
     width: 100%;
-    background-color: #191919;
     display: flex;
 }
 
@@ -137,6 +135,12 @@
         padding-left: 4rem;
         width: 50%;
     }
+    .contactInput{
+        width: 250px;
+    }
+    .contactBigInput{
+        width: 250px;
+    }
 
     .footerIcon {
         margin-left: 4rem;
@@ -156,12 +160,6 @@
 }
 
 @media only screen and (max-width : 530px) {
-    .contactInput {
-        width: 20rem;
-    }
-    .contactBigInput{
-        width: 20rem;
-    }
     .contactButton{
         margin-left: 4rem;
     }
