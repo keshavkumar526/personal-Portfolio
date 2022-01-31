@@ -1,12 +1,11 @@
 import React from "react";
 import "./about.css";
-// import profile from "./profile.JPG";
 import img from "./img.jpg"
 import profilePic from "../../img/profilePic.jpg"
 
 export default function About() {
   return (
-    <div className="about" id="about">
+    <div className="about" id="about" data-aos="zoom-in-down">
       <div className="aboutContainer">
         <div className="aboutImg">
           <img className="pfm" src={profilePic} alt="" />

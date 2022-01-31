@@ -73,7 +73,7 @@ export default function Home() {
             ) : null}
           </div>
         </div>
-        <div className="homeContainer">
+        <div className="homeContainer" data-aos="zoom-in">
           <h3 className="hi">Welcome To My World </h3>
           <h2 className="desc1">Hi, I'm Keshav</h2>
           <h2 className="desc2">Full Stack Developer</h2>

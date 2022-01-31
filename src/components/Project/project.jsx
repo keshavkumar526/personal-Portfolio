@@ -8,15 +8,15 @@ import todo from "../../img/todo.png";
 
 export default function Project() {
   return (
-    <div className="project" id="projects">
+    <div className="project" id="projects" data-aos="fade-down-right">
       <div className="projectContainer">
         <div className="pr">
           <p className="para">Personal Projects</p>
         </div>
-        <div className="projectMid">
+        <div className="projectMid" data-aos="zoom-in-up">
           <img src={social} alt="" className="projectImg" />
         </div>
-        <div className="projectRight">
+        <div className="projectRight" data-aos="fade-up">
           <div className="projectDesc">
             <h3 className="projectTitle">Title : Social Media App</h3>
             <h3 className="tech">
@@ -39,10 +39,10 @@ export default function Project() {
             </a>
           </div>
         </div>
-        <div className="projectMid">
+        <div className="projectMid" data-aos="zoom-in-up">
           <img src={crud} alt="" className="projectImg" />
         </div>
-        <div className="projectRight">
+        <div className="projectRight" data-aos="fade-up">
           <div className="projectDesc">
             <h3 className="projectTitle">Title : CRUD App</h3>
             <h3 className="tech">
@@ -65,10 +65,10 @@ export default function Project() {
             </a>
           </div>
         </div>
-        <div className="projectMid">
+        <div className="projectMid" data-aos="zoom-in-up">
           <img src={todolist} alt="" className="projectImg" />
         </div>
-        <div className="projectRight">
+        <div className="projectRight" data-aos="fade-up">
           <div className="projectDesc">
             <h3 className="projectTitle">Title : Social Media App</h3>
             <h3 className="tech">
@@ -91,10 +91,10 @@ export default function Project() {
             </a>
           </div>
         </div>
-        <div className="projectMid">
+        <div className="projectMid" data-aos="zoom-in-up">
           <img src={secrets} alt="" className="projectImg" />
         </div>
-        <div className="projectRight">
+        <div className="projectRight" data-aos="fade-up">
           <div className="projectDesc">
             <h3 className="projectTitle">Title : Social Media App</h3>
             <h3 className="tech">
@@ -117,10 +117,10 @@ export default function Project() {
             </a>
           </div>
         </div>
-        <div className="projectMid">
+        <div className="projectMid" data-aos="zoom-in-up">
           <img src={todo} alt="" className="projectImg" />
         </div>
-        <div className="projectRight">
+        <div className="projectRight" data-aos="fade-down">
           <div className="projectDesc">
             <h3 className="projectTitle">Title : Social Media App</h3>
             <h3 className="tech">
